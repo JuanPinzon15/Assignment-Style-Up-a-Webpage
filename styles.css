@@ -1,76 +1,66 @@
-/* styles.css */
-/* Body styling */
 .body-class {
-    background-color: #f0f0f0; /* Subtle background color */
-    font-family: Arial, sans-serif; /* Readable font */
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
 }
-/* Header styling */
 .header-class {
-    background-color: #4CAF50; /* Contrasting background color */
-    color: white; /* Font color for better visibility */
+    background-color: #4CAF50;
+    color: white;
     padding: 10px;
 }
-/* Navigation styling */
 .nav-class {
-    background-color: #333; /* Different background color */
-    color: #fff; /* Font color */
+    background-color: #333;
+    color: #fff;
 }
 .nav-class a {
-    color: white; /* Link color */
-    text-decoration: none; /* Remove underline */
+    color: white;
+    text-decoration: none;
     padding: 14px 20px;
 }
 .nav-class a.active {
-    font-weight: bold; /* Bold for active link */
+    font-weight: bold;
 }
-/* Title styling */
 .title-class {
-    color: #2E86C1; /* Distinct color for titles */
+    color: #2E86C1;
 }
 .section-title-class {
-    color: #D35400; /* Distinct color for section titles */
+    color: #D35400;
 }
-/* Text styling */
 .text-class {
-    color: #333; /* Contrasting text color */
+    color: #333;
 }
-/* Image styling */
 .image-class {
-    border: 2px solid #2E86C1; /* Complementary border color */
+    border: 2px solid #2E86C1;
 }
-/* Form and button styling */
 .form-class {
-    background-color: #fff; /* Form background color */
-    border: 1px solid #ccc; /* Light border */
+    background-color: #fff;
+    border: 1px solid #ccc;
     padding: 10px;
 }
 .button-class {
-    background-color: #4CAF50; /* Cohesive button color */
+    background-color: #4CAF50;
     color: white;
     padding: 10px 15px;
     border: none;
     cursor: pointer;
 }
 .button-class:hover {
-    background-color: #45a049; /* Darker on hover */
+    background-color: #45a049;
 }
-/* Footer styling */
 .footer-class {
-    background-color: #333; /* Distinct footer background */
-    color: white; /* Footer font color */
+    background-color: #333;
+    color: white;
     padding: 10px;
     text-align: center;
 }
-/* Responsive design */
 @media (max-width: 768px) {
     .nav-class {
-        display: block; /* Stack navigation items */
+        display: block;
     }  
     .form-class {
-        width: 100%; /* Full width on small screens */
+        width: 100%;
     }
     .image-class {
-        width: 100%; /* Make images responsive */
+        width: 100%;
         height: auto;
     }
 }
