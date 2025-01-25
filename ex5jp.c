@@ -1,3 +1,11 @@
+/*******************
+ * FILENAME: ex5jp.c
+
+ * YOUR NAME: Juan Pinzon
+
+ * DESCRIPTION: With this code we can ask the user to enter a value for x and then displays the value of a polynomial.
+
+*********************/
 #include <stdio.h>
 #include <math.h>
 
